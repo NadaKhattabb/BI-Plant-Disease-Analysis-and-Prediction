@@ -33,7 +33,7 @@ Dataset summary:
 - Validation images: 8,691
 - Test images: 10,845
 
-![Dataset Size](dataset_size.png)
+![Dataset Size](images/dataset_size.png)
 
 ---
 
@@ -41,7 +41,7 @@ Dataset summary:
 
 The following image shows samples from the plant leaf dataset. The dataset includes multiple plant types and disease categories, such as tomato diseases, potato diseases, apple diseases, corn diseases, grape diseases, and healthy plant leaves.
 
-![Dataset Samples](dataset_samples.png)
+![Dataset Samples](images/dataset_samples.png)
 
 ---
 
@@ -49,7 +49,7 @@ The following image shows samples from the plant leaf dataset. The dataset inclu
 
 The training image distribution was visualized to check whether the dataset is balanced across all classes.
 
-![Class Distribution](class_distribution.png)
+![Class Distribution](images/class_distribution.png)
 
 The chart shows that the dataset contains class imbalance, where some classes have more images than others. Because of this, the project does not rely only on accuracy. Instead, multiple metrics were used to evaluate the model more fairly, including:
 
@@ -75,7 +75,7 @@ The data quality check showed:
 
 This step is important because duplicate images between training and testing data can cause data leakage. Data leakage may make the model accuracy appear higher than it really is. Removing duplicate test images helps ensure a more reliable final evaluation.
 
-![Duplicate Check](duplicate_check.png)
+![Duplicate Check](images/duplicate_check.png)
 
 ---
 
@@ -97,7 +97,7 @@ The model architecture includes:
 
 The final output layer contains 38 neurons because the dataset contains 38 plant disease and healthy classes.
 
-![Model Summary](model_summary.png)
+![Model Summary](images/model_summary.png)
 
 ---
 
@@ -165,7 +165,7 @@ The evaluation process included:
 - Confusion matrix
 - Normalized confusion matrix
 
-![Power BI Overview](powerbi_overview.png)
+![Power BI Overview](images/powerbi_overview.png)
 
 ---
 
@@ -180,7 +180,7 @@ The class performance page includes:
 - Recall comparison
 - Disease-wise evaluation
 
-![Class Performance](class_performance.png)
+![Class Performance](images/class_performance.png)
 
 ---
 
@@ -195,7 +195,7 @@ The confusion matrix helps show:
 - Similar disease categories that may be confused by the model
 - Overall classification behavior across the 38 classes
 
-![Confusion Matrix](confusion_matrix_dashboard.png)
+![Confusion Matrix](images/confusion_matrix_dashboard.png)
 
 ---
 
@@ -203,7 +203,7 @@ The confusion matrix helps show:
 
 The project follows an end-to-end workflow starting from dataset preparation, model training, model evaluation, and finally visualizing the results using Power BI.
 
-![Model Pipeline](model_pipeline.png)
+![Model Pipeline](images/model_pipeline.png)
 
 ---
 
