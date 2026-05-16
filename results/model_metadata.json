@@ -1,0 +1,18 @@
+{
+  "backbone": "EfficientNetB0",
+  "num_classes": 38,
+  "image_size": [
+    160,
+    160
+  ],
+  "class_names_file": "class_names.json",
+  "tensorflow_version": "2.20.0",
+  "loss": "sparse_categorical_crossentropy",
+  "healthy_rule": "After first '___', condition == 'healthy' => Healthy; else Diseased (see section 1 / predict_image)",
+  "checkpoint_source": "/content/drive/MyDrive/plant_project/best_plant_disease_model.keras",
+  "metrics_file": "metrics.json",
+  "training_history_file": "training_history.json",
+  "classification_report_csv": "classification_report.csv",
+  "confusion_matrix_csv": "confusion_matrix.csv",
+  "normalized_confusion_matrix_csv": "normalized_confusion_matrix.csv"
+}
