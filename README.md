@@ -7,14 +7,17 @@ This graduation project presents a Business Intelligence system for plant diseas
 The project focuses on classifying plant leaf images into healthy and diseased classes using transfer learning with EfficientNetB0. The model evaluation results were exported and used to build a Power BI dashboard that supports performance analysis, class-level comparison, and confusion matrix visualization.
 
 ---
+
 ## Important Links
 
-- [Download Power BI Dashboard](dashboard/project.dashboard.pbix)
-- [Open Project Notebook](plant_disease_analysis_prediction_notebook.ipynb)
-- [View Dashboard Screenshots](images/)
-- [View Results Files](results/)
-- [View Dataset and Model Files](data/)
+| Resource | Link |
+|---|---|
+| Power BI Dashboard | [Download PBIX file](dashboard/project.dashboard.pbix) |
+| Main Notebook | [Open notebook](plant_disease_analysis_prediction_notebook.ipynb) |
+| Dashboard Screenshots | [View images](images/) |
+| Results Files | [View results](results/) |
 
+---
 ## Objectives
 
 The main objectives of this project are:
