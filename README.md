@@ -33,7 +33,7 @@ Dataset summary:
 - Validation images: 8,691
 - Test images: 10,845
 
-![Dataset Size](dataset_size.png)
+![Dataset Size](images/dataset_size.png)
 
 ---
 
