@@ -231,7 +231,7 @@ The dashboard uses exported model result files, including:
 
 The full Power BI dashboard file is available in this repository:
 
-`project.pbix`
+`[Download Power BI Dashboard](dashboard/project.dashboard.pbix)`
 
 ---
 
@@ -246,7 +246,7 @@ The full Power BI dashboard file is available in this repository:
 | `normalized_confusion_matrix.csv` | Normalized confusion matrix values |
 | `model_metadata.json` | Model configuration and metadata |
 | `training_history.json` | Training and validation accuracy/loss history |
-| `project.pbix` | Power BI dashboard file |
+| `[Download Power BI Dashboard](dashboard/project.dashboard.pbix)` | Power BI dashboard file |
 | `dataset_size.png` | Dataset summary screenshot |
 | `dataset_samples.png` | Dataset sample images screenshot |
 | `class_distribution.png` | Training images per class chart |
