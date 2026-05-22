@@ -8,16 +8,39 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 
 ---
 
+
 ## Important Links
 
 | Resource | Link |
 |---|---|
 | Power BI Dashboard | [Download PBIX file](dashboard/project.dashboard.pbix) |
-| Main Notebook | [Open notebook](plant_disease_analysis_prediction_notebook.ipynb) |
+| Project Code | [Open Google Colab notebook](https://colab.research.google.com/drive/1BC5ncFX4bFJ34UNX18VAgm-c91ArzxR-?pli=1) |
+| Main Notebook File | [Open notebook in repository](plant_disease_analysis_prediction_notebook.ipynb) |
 | Dashboard Screenshots | [View images](images/) |
 | Results Files | [View results](results/) |
 
 ---
+## Project Code
+
+The main project code is available in Google Colab:
+
+[Open Project Code in Google Colab](https://colab.research.google.com/drive/1BC5ncFX4bFJ34UNX18VAgm-c91ArzxR-?pli=1)
+
+The notebook contains the complete implementation of the plant disease classification system, including:
+
+- Dataset preparation and loading
+- Data preprocessing
+- Data augmentation
+- EfficientNetB0 transfer learning model
+- Classification head training
+- Fine-tuning stage
+- Model evaluation on the test set
+- Accuracy, F1-score, and balanced accuracy calculation
+- Classification report generation
+- Confusion matrix generation
+- Exporting model results for Power BI dashboard analysis
+
+This Google Colab notebook represents the main source code of the project.
 ## Objectives
 
 The main objectives of this project are:
