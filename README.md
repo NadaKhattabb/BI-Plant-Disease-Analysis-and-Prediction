@@ -15,9 +15,12 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 |---|---|
 | Power BI Dashboard | [Download PBIX file](dashboard/project.dashboard.pbix) |
 | Project Code | [Open Google Colab notebook](https://colab.research.google.com/drive/1BC5ncFX4bFJ34UNX18VAgm-c91ArzxR-?pli=1) |
+| Dataset | [Open dataset](https://uopstdedu-my.sharepoint.com/:u:/g/personal/202210469_uopstd_edu_jo/IQDlIKTMxsy2Rrobm2K9t1K6AcCbjvNtif6MfD8kMkzVlag?e=PvbEkm) |
 | Main Notebook File | [Open notebook in repository](plant_disease_analysis_prediction_notebook.ipynb) |
+| Presentation Slides | [Download PowerPoint presentation](presentation/plant_disease_bi_presentation.pptx) |
 | Dashboard Screenshots | [View images](images/) |
 | Results Files | [View results](results/) |
+
 
 ---
 ## Project Code
