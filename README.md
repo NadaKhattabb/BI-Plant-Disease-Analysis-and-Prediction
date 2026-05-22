@@ -7,22 +7,6 @@ This graduation project presents a Business Intelligence system for plant diseas
 The project focuses on classifying plant leaf images into healthy and diseased classes using transfer learning with EfficientNetB0. The model evaluation results were exported and used to build a Power BI dashboard that supports performance analysis, class-level comparison, and confusion matrix visualization.
 
 ---
-## Important Project Links
-
-The main project files and outputs are available through the following links:
-
-- [Open Project Notebook](plant_disease_analysis_prediction_notebook.ipynb)
-- [Download Power BI Dashboard](dashboard/project.pbix)
-- [Download Dataset](https://1drv.ms/u/c/cd9639f1b9c7cd16/IQDAC8WoyGhfTZWUKBS5cJvcARViLL-QPLm5tK4ovO6VB-I?e=kNnuw0)
-
-### Model Output Files
-
-- [Classification Report](results/classification_report.csv)
-- [Confusion Matrix](results/confusion_matrix.csv)
-- [Normalized Confusion Matrix](results/normalized_confusion_matrix.csv)
-- [Training History](results/training_history.json)
-- [Model Metadata](results/model_metadata.json)
-- [Class Names](results/class_names.json)
 
 ## Objectives
 
@@ -49,21 +33,15 @@ Dataset summary:
 - Validation images: 8,691
 - Test images: 10,845
 
-![Dataset Size](images/dataset_size.png)
+![Dataset Size](dataset_size.png)
 
 ---
-## Dataset Link
-
-The dataset file is too large to upload directly to GitHub.  
-It is available through OneDrive:
-
-[Download Dataset](https://1drv.ms/u/c/cd9639f1b9c7cd16/IQDAC8WoyGhfTZWUKBS5cJvcARViLL-QPLm5tK4ovO6VB-I?e=kNnuw0)
 
 ## Dataset Samples
 
 The following image shows samples from the plant leaf dataset. The dataset includes multiple plant types and disease categories, such as tomato diseases, potato diseases, apple diseases, corn diseases, grape diseases, and healthy plant leaves.
 
-![Dataset Samples](images/dataset_samples.png)
+![Dataset Samples](dataset_samples.png)
 
 ---
 
@@ -71,7 +49,7 @@ The following image shows samples from the plant leaf dataset. The dataset inclu
 
 The training image distribution was visualized to check whether the dataset is balanced across all classes.
 
-![Class Distribution](images/class_distribution.png)
+![Class Distribution](class_distribution.png)
 
 The chart shows that the dataset contains class imbalance, where some classes have more images than others. Because of this, the project does not rely only on accuracy. Instead, multiple metrics were used to evaluate the model more fairly, including:
 
@@ -97,7 +75,7 @@ The data quality check showed:
 
 This step is important because duplicate images between training and testing data can cause data leakage. Data leakage may make the model accuracy appear higher than it really is. Removing duplicate test images helps ensure a more reliable final evaluation.
 
-![Duplicate Check](images/duplicate_check.png)
+![Duplicate Check](duplicate_check.png)
 
 ---
 
@@ -119,7 +97,7 @@ The model architecture includes:
 
 The final output layer contains 38 neurons because the dataset contains 38 plant disease and healthy classes.
 
-![Model Summary](images/model_summary.png)
+![Model Summary](model_summary.png)
 
 ---
 
@@ -187,7 +165,7 @@ The evaluation process included:
 - Confusion matrix
 - Normalized confusion matrix
 
-![Power BI Overview](images/powerbi_overview.png)
+![Power BI Overview](powerbi_overview.png)
 
 ---
 
@@ -202,7 +180,7 @@ The class performance page includes:
 - Recall comparison
 - Disease-wise evaluation
 
-![Class Performance](images/class_performance.png)
+![Class Performance](class_performance.png)
 
 ---
 
@@ -217,7 +195,7 @@ The confusion matrix helps show:
 - Similar disease categories that may be confused by the model
 - Overall classification behavior across the 38 classes
 
-![Confusion Matrix](images/confusion_matrix_dashboard.png)
+![Confusion Matrix](confusion_matrix_dashboard.png)
 
 ---
 
@@ -225,7 +203,7 @@ The confusion matrix helps show:
 
 The project follows an end-to-end workflow starting from dataset preparation, model training, model evaluation, and finally visualizing the results using Power BI.
 
-![Model Pipeline](images/model_pipeline.png)
+![Model Pipeline](model_pipeline.png)
 
 ---
 
@@ -253,7 +231,9 @@ The dashboard uses exported model result files, including:
 
 The full Power BI dashboard file is available in this repository:
 
-`project.pbix`
+[`dashboard/project.dashboard.pbix`](dashboard/project.dashboard.pbix)
+
+The old dashboard file name `project.pbix` was replaced with the updated Power BI file `project.dashboard.pbix`.
 
 ---
 
@@ -268,7 +248,7 @@ The full Power BI dashboard file is available in this repository:
 | `normalized_confusion_matrix.csv` | Normalized confusion matrix values |
 | `model_metadata.json` | Model configuration and metadata |
 | `training_history.json` | Training and validation accuracy/loss history |
-| `project.pbix` | Power BI dashboard file |
+| [`dashboard/project.dashboard.pbix`](dashboard/project.dashboard.pbix) | Updated Power BI dashboard file |
 | `dataset_size.png` | Dataset summary screenshot |
 | `dataset_samples.png` | Dataset sample images screenshot |
 | `class_distribution.png` | Training images per class chart |
