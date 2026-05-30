@@ -27,7 +27,7 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 | Item | Details |
 |---|---|
 | Project Title | Plant Disease BI System |
-| Student Name | Nada Ahmed Khattab |
+| Prepared By | Nada Ahmed Khattab |
 | University | University of Petra |
 | Faculty | Business |
 | Specialization | Business Intelligence |
@@ -35,9 +35,7 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 | Submission Date | 1 / 6 / 2026 |
 
 ---
-
-## Team Member
-
+## Prepared By
 - Nada Ahmed Khattab
 
 ---
