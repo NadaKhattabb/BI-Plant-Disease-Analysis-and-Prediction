@@ -4,7 +4,7 @@
 
 This graduation project presents a Business Intelligence system for plant disease analysis and prediction. The system combines a deep learning image classification model with an interactive Power BI dashboard to analyze model performance and visualize prediction results.
 
-The project focuses on classifying plant leaf images into healthy and diseased classes using transfer learning with EfficientNetB0. The model evaluation results were exported and used to build a Power BI dashboard that supports performance analysis, class-level comparison, and confusion matrix visualization.
+The project focuses on classifying plant leaf *images* into healthy and diseased classes using transfer learning with EfficientNetB0. The model evaluation results were exported and used to build a Power BI dashboard that supports performance analysis, class-level comparison, and confusion matrix visualization.
 
 ---
 
