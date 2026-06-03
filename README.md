@@ -30,7 +30,6 @@ The web app allows users to upload a plant leaf image or test an image captured 
 
 This makes the project more practical because the model can be tested without running the notebook manually.
 
-[Open Plant Disease Detection Web App](https://plants-beta-ten.vercel.app/)
 ---
 
 ## Project Information
