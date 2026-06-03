@@ -22,6 +22,16 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 | Results Files | [View results](results/) |
 
 ---
+## Web App
+
+A web application was developed as an extension of the project to test plant disease prediction through a simple user interface.
+
+The web app allows users to upload a plant leaf image or test an image captured from a phone camera. The system then analyzes the image and returns the predicted plant disease class.
+
+This makes the project more practical because the model can be tested without running the notebook manually.
+
+[Open Plant Disease Detection Web App](https://plants-beta-ten.vercel.app/)
+---
 
 ## Project Information
 
