@@ -45,10 +45,6 @@ This makes the project more practical because the model can be tested without ru
 | Submission Date | 1 / 6 / 2026 |
 
 ---
-## Prepared By
-- Nada Ahmed Khattab
-
----
 
 ## Project Code
 
