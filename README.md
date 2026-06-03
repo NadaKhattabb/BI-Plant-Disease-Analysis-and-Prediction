@@ -348,7 +348,7 @@ The full Power BI dashboard file is available in this repository:
 | `normalized_confusion_matrix.csv` | Normalized confusion matrix values |
 | `model_metadata.json` | Model configuration and metadata |
 | `training_history.json` | Training and validation accuracy/loss history |
-|| `dashboard/project.dashboard.pbix` | Power BI dashboard file |
+| `dashboard/project.dashboard.pbix` | Power BI dashboard file |
 | `dataset_size.png` | Dataset summary screenshot |
 | `dataset_samples.png` | Dataset sample images screenshot |
 | `class_distribution.png` | Training images per class chart |
@@ -378,7 +378,6 @@ The project uses the following tools and technologies:
 - GitHub
 
 ---
-
 ## Challenges
 
 Some challenges faced during the project include:
@@ -389,20 +388,20 @@ Some challenges faced during the project include:
 - Google Colab free runtime limitations.
 - Risk of data leakage caused by duplicate images.
 - Need for clear visualization of model performance.
+- Need to provide a simple interface for testing the model outside the notebook.
 
 ---
-
 ## Future Work
 
 Future improvements may include:
 
-- Deploying the model as a web application.
-- Deploying the model as a mobile application.
-- Testing the model on real-world phone camera images.
+- Converting the system into a full mobile application.
+- Improving web app deployment and user experience.
+- Increasing dataset diversity.
 - Adding stronger near-duplicate image detection.
 - Improving the model using more advanced data augmentation.
 - Testing other pretrained models such as ResNet, MobileNet, and EfficientNetV2.
-- Adding an automatic disease recommendation system for farmers or agricultural users.
+- Adding treatment recommendation guidance for farmers or agricultural users.
 
 ---
 
