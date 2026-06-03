@@ -38,6 +38,7 @@ This makes the project more practical because the model can be tested without ru
 |---|---|
 | Project Title | Plant Disease BI System |
 | Prepared By | Nada Ahmed Khattab |
+| Student ID | 202210469 |
 | University | University of Petra |
 | Faculty | Business |
 | Specialization | Business Intelligence |
