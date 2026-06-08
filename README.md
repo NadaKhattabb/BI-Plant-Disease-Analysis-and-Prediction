@@ -31,6 +31,21 @@ The web app allows users to upload a plant leaf image or test an image captured 
 This makes the project more practical because the model can be tested without running the notebook manually.
 
 ---
+## Web App Phone Testing
+
+The web application was tested using real plant leaf images captured by a mobile phone camera.
+
+The app displays the uploaded image, predicts the plant type and disease class, and shows whether the leaf is healthy or diseased.
+
+Example results include:
+- Grape — Healthy
+- Grape — Black rot
+- Apple — Healthy
+- Apple — Cedar apple rust
+
+This demonstrates that the system can be used from a mobile browser for practical plant disease prediction.
+
+---
 
 ## Project Information
 
