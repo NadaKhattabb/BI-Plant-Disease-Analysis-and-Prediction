@@ -13,6 +13,7 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 | Resource | Link |
 |---|---|
 | Web App | [Open Plant Disease Detection](https://plants-beta-ten.vercel.app/) |
+| Web App Source Code| 
 | Power BI Dashboard | [Download PBIX file](dashboard/project.dashboard.pbix) |
 | Project Code | [Open Google Colab notebook](https://colab.research.google.com/drive/1BC5ncFX4bFJ34UNX18VAgm-c91ArzxR-?pli=1) |
 | Dataset | [Download dataset](https://1drv.ms/u/c/cd9639f1b9c7cd16/IQDAC8WoyGhfTZWUKBS5cJvcAacYb2o-nQXFWVOoB_hhaKs?e=aan79F) |
@@ -20,6 +21,7 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 | Presentation Slides | [Download PowerPoint presentation](presentation/plant_disease_bi_presentation.pptx) |
 | Dashboard Screenshots | [View images](images/) |
 | Results Files | [View results](results/) |
+
 
 ---
 ## Web App
