@@ -15,7 +15,7 @@ The project focuses on classifying plant leaf images into healthy and diseased c
 | Web App | [Open Plant Disease Detection](https://plants-beta-ten.vercel.app/) |
 | Web App Source Code | [View Source Code](https://github.com/NadaKhattabb/plantsWebsite)  |
 | Power BI Dashboard | [Download PBIX file](dashboard/project.dashboard.pbix) |
-| Project Code | [Open Google Colab notebook](https://colab.research.google.com/drive/1BC5ncFX4bFJ34UNX18VAgm-c91ArzxR-?pli=1) |
+| Project Code | [Open Google Colab notebook](https://colab.research.google.com/drive/1V3yVKswVq1-O-FtH9QlLeRgwsdy7zjhK) |
 | Dataset | [Download dataset](https://1drv.ms/u/c/cd9639f1b9c7cd16/IQDAC8WoyGhfTZWUKBS5cJvcAacYb2o-nQXFWVOoB_hhaKs?e=aan79F) |
 | Main Notebook File | [Open notebook in repository](plant_disease_analysis_prediction_notebook.ipynb) |
 | Presentation Slides | [Download PowerPoint presentation](presentation/plant_disease_bi_presentation.pptx) |
